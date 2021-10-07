@@ -2,11 +2,12 @@
  * @Description: 登录页 demo
  * @Author: kivet
  * @Date: 2021-10-07 16:31:29
- * @LastEditTime: 2021-10-07 18:06:36
+ * @LastEditTime: 2021-10-07 19:18:11
  */
 
 import { FC } from 'react';
 import { Button } from 'antd';
+import styles from './index.module.less';
 
 interface IProps {
   history: any;
@@ -23,7 +24,7 @@ const Login: FC<IProps> = (props: IProps) => {
   };
 
   return (
-    <div>
+    <div className={styles.container}>
       <div>登录页</div>
       <div>
         <Button type='primary' onClick={onLogin}>

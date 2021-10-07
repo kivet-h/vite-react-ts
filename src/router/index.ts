@@ -4,8 +4,8 @@
  * @Date: 2021-10-07 16:27:24
  * @LastEditTime: 2021-10-07 16:46:48
  */
-import Login from '../pages/Login';
-import Home from '../pages/Home';
+import Login from '@/pages/Login';
+import Home from '@/pages/Home';
 
 export default {
   routes: [
